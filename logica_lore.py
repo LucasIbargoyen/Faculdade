@@ -93,7 +93,7 @@ while menu != "Q":
                         #vai para a fase 2....
                         print('vai para a fase 2')
                         break # Criado por Lucas
-            break
+            break #Criado por Lucas
 
     print("\nPressione a tecla Q para sair ou a tecla I para iniciar")
     menu = input().upper()
