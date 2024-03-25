@@ -1,6 +1,6 @@
 import random #importado a biblioteca Randon qua fará o sorteamento das decisões no jogo
 """
-ATUALIZAÇÃO 25/03 (Lucas): Arrumei alguns erros de identação do código e arrumei as estruturas de sequenciais
+ATUALIZAÇÃO 25/03 (Lucas): Arrumei alguns erros de identação do código e arrumei as estruturas sequenciais
 que estavam bugando e deixando o código desnecessáriamente complexo, antes dentro dos laços haviam 2 estruturas sequenciais,
 agora tá com apenas uma estrutura sequencial dentro de cada laço do while. Na parte da capivara menor a gente já pode pensar no 
 combate, tava pensando em criar uma lista de d1 até d20 sendo d1 o ataque fraco e d20 o ataque forte, o código escolheria aleatoriamente
