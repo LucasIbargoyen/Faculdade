@@ -35,7 +35,7 @@
             color: #333;
         }
         input[type="email"],
-        input[type="submit"]{
+        input[type="Submit"]{
             width: 100%;
             padding: 0.75rem;
             margin-bottom: 1rem;
@@ -50,7 +50,7 @@
             border-color: #8e24aa;
             outline: none;
         }
-        input[type="submit"]{
+        input[type="Submit"]{
             background-color: #8e24aa;
             color: white;
             border: none;
@@ -67,6 +67,12 @@
         <input type="email" id="email" name="email" placeholder="Digite seu Email" required>
         <input type="button" value="Inscrever-se">
     </form>
+    <script>
+        document.getElementsById('emailForm').addEventListener('Submit', function(e){
+            e.preventDefault();
+            const email = document.getElementById('email').value; 
+            alert('Obrigado por se inscrever com o email: ${email}')});
+    </script>
     <div>
 </body>
 </html>
